@@ -16,7 +16,7 @@ import tiger.user as tiger_user
 import tiger.thirdparty as tiger_thirdparty
 import sport.business as sport_business
 import socket, random, string, csv, uuid, requests
-import settings
+import function.settings as settings
 
 platform_url = settings.api_url
 ws_url = settings.ws_url

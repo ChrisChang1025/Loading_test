@@ -5,7 +5,7 @@ from flask import request, Response
 from locust import stats as locust_stats, runners as locust_runners
 from locust import User, task, events, LoadTestShape, constant
 from prometheus_client import Metric, REGISTRY, exposition
-import settings
+import function.settings as settings
 # This locustfile adds an external web endpoint to the locust master, and makes it serve as a prometheus exporter.
 # Runs it as a normal locustfile, then points prometheus to it.
 # locust -f prometheus_exporter.py --master

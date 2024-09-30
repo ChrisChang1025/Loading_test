@@ -2,7 +2,7 @@ import Function.function as func
 import requests
 # from platform_thirdparty import *
 import logging
-import settings
+import function.settings as settings
 import json
 from datetime import datetime, timedelta
 

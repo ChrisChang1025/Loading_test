@@ -8,7 +8,7 @@ import csv
 import Function.function as func
 import tiger.user as tiger_user
 
-import settings
+import function.settings as settings
 
 acc_list = list()
 running_param = dict()

@@ -3,7 +3,7 @@ import Crypto
 from Crypto.PublicKey import RSA
 from Crypto import Random
 from base64 import b64encode, b64decode
-import settings
+import function.settings as settings
 import requests
 import socket, random, string
 

@@ -5,7 +5,7 @@ import logging
 import random,json
 import Function.function as func
 import sport.business as sport
-import settings, csv
+import function.settings as settings, csv
 from locustCollector import LocustCollector
 from prometheus_client import REGISTRY, exposition
 from flask import request, Response

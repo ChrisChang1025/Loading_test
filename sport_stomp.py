@@ -6,7 +6,7 @@ from websocket import create_connection
 from locust import FastHttpUser, LoadTestShape, TaskSet, task, events, constant, run_single_user
 
 from json.decoder import JSONDecodeError
-import settings
+import function.settings as settings
 import logging,datetime
 import stomper, csv, socket
 

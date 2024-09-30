@@ -11,7 +11,7 @@ from locust import LoadTestShape
 import logging
 import tiger.user as tiger_user
 import tiger.payment as tiger_payment
-import settings
+import function.settings as settings
 import Function.function as func
 from kafka import KafkaConsumer
 import time

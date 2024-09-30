@@ -19,7 +19,7 @@ import tiger.thirdparty as tiger_thirdparty
 from im.chat_ws import chat_ws as chat_ws
 from im.chat_ws import Command as Command
 from gevent import Timeout
-import settings
+import function.settings as settings
 from locust.exception import StopUser
 
 acc_list = list()

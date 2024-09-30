@@ -12,7 +12,7 @@ import tiger.user as tiger_user
 import tiger.thirdparty as tiger_thirdparty
 import tiger.thirdparty_report as tiger_thirdparty_report
 import sport.game as sport_game
-import settings
+import function.settings as settings
 from locust import LoadTestShape
 
 

@@ -5,7 +5,7 @@ from prometheus_client import Metric, REGISTRY, exposition
 from locustCollector import LocustCollector
 from flask import request, Response
 from json.decoder import JSONDecodeError
-import settings
+import function.settings as settings
 import logging
 import stomper
 import csv
